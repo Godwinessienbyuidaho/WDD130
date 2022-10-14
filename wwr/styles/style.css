@@ -10,8 +10,11 @@ nav, a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
     height: 725px;
 }
 body {
-    background-color: rgb(199, 193, 236);
+    background-color: rgb(248, 247, 252);
     font-family: "Roboto", "Rock salt";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -23,6 +26,10 @@ nav a:hover {
 .books, .join {
     background-color: lightseagreen;
     color: aliceblue;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px
 }
 .book:hover, .join:hover {
     background-color: rgb(69, 168, 69);
@@ -32,30 +39,40 @@ nav a:hover {
     background-color: rgb(62, 107, 158);
 }
 .msg {
-    background-color: rgb(194, 145, 145);
-    font: "Rock salt";
+    background-color: gray;
+    font-family: "Rock Salt";
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: gray;
     color: aliceblue;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 nav a {
     color: azure;
     text-decoration: none;
+    padding: 35px;
 }
 .home-title {
-    color: aliceblue;
-    font: "Rock salt";
+    color: rgb(35, 52, 153);
+    font-family: "Rock salt";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
-    color: beige;
+    color: rgba(160, 160, 63, 0.562);
+    font-family: "Rock Salt";
 }
 .msg h2 {
     color: aliceblue;
-    font: "Rock Salt";
+    font-family: "Rock Salt";
 }
 .msg p {
     color: aliceblue;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: aliceblue;
@@ -70,6 +87,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -79,4 +97,22 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+}
+.card-img {
+    border: 10px solid gray;
+}
+main section img {
+    box-sizing: border-box;
 }
