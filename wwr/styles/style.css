@@ -174,10 +174,10 @@ main {
 }
 #background {
     grid-column: 1/11;
-    grid-row: 4/9;
+    grid-row: 4/11;
 }
 .mountains {
-    grid-column: 2/7;
+    grid-column: 2/10;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
@@ -190,6 +190,10 @@ main {
     transform: scale(1.1);
 }
 .home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.rivers-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
