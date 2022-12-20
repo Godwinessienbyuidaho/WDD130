@@ -22,7 +22,7 @@ header {
     grid-template-columns: 150px auto;
 }
 nav a:hover {
-    background-color: rgb(173, 114, 114);
+    background-color: rgb(90, 121, 180);
     color: azure;
 }
 .books, .join {
